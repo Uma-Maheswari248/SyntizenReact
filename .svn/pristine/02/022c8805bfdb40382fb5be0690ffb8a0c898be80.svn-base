@@ -1,0 +1,33 @@
+/* Videos open */
+.vid-off-box {
+    padding: 5px 5px;
+    margin-bottom: 22px;
+}
+
+.vid-off-box:hover {
+    transform: translateY(-2px);
+}
+
+.vid-row2 {
+    margin-top:3%;
+}
+.vid-row3 {
+    margin-bottom: 0%;
+}
+.vid-off-box p {
+    font-size: 14px;
+    margin: 20px 0px 20px 0px;
+    transition: transform .2s;
+    text-align:center;
+    height: 70px;
+}
+
+.vid-off-box h4 {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align:center;
+}
+/* Videos close */

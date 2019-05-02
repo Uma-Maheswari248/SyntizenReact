@@ -1,0 +1,4 @@
+npm run-script build  - to build files for deployment
+
+<Redirect from='/facialauth/facial/FindSimilar' to='/facialauth/facial/FindSimilar' />
+<Redirect from='*' to='/404' />

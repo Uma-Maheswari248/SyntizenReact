@@ -1,0 +1,32 @@
+.ecos-att-box img {
+    width: 25%;
+    padding: 3%;
+}
+
+
+.ecos-att-box {
+    border: 1px solid #f3f3f3;
+    align-items: center;
+    height: 260px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 3% 2% 1% 3%;
+}
+
+.ecos-att-box:nth-child(4){
+    border-right: 0px;
+}
+
+
+
+.ecos-att-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.ecos-att-box p {
+    font-size: 14px;
+}

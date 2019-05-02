@@ -1,0 +1,167 @@
+import React, { Component } from 'react';
+
+import Mob_fotter from './Mob_footer';
+import { Link } from 'react-router-dom';
+ class Footer extends Component {
+    constructor(props){
+        super(props)
+        this.state={
+            email:''
+        }
+        this.emailChange=this.emailChange.bind(this);
+        this.subs=this.subs.bind(this);
+    }
+    emailChange=(event)=>{
+        this.setState({
+        [event.target.name]: event.target.value
+        }
+        )
+    }
+    subs(){
+        this.props.sub(this.state.email);
+    }
+    render() {
+
+        
+        return (
+            <div>
+                <section className="footer-sec">
+                    <div className="container">
+                    
+                        <div className="row footer-row">
+                            <div className="col-md-6 col-xs-12">
+                                <h3 style={{ color: '#40B1BA' }}>Ready to get Stared?</h3>
+                                <h3>Get in touch or create an account</h3>
+        
+                            </div>
+                            <div className="col-md-5 col-md-offset-1 col-xs-12 foot-col-marg ">
+                                {/* <a href="javascript:void(0)"><button className="btn-back-dark ">Create Account</button></a> */}
+                                <Link to={{pathname: '/contact', state: { prevPath: window.location.pathname }}}><button className="btn-back-white pull-right footer-btn-left-marg">Contact Sales</button></Link>
+                            </div>
+                        </div>
+                        <div className="row footer-row2">
+                            <div className="col-md-12">
+                                <div className="footer-col1">
+                                    <img className="footer-img-logo" src="images/logo.svg" />
+                                    <Link to="/zen-aua" >
+                                        <li>ZEN AUA/KUA Platform</li>
+                                    </Link>
+                                    <Link to="/zen-asa" >
+                                        <li ><span>  ZEN ASA Platform</span></li>
+                                    </Link>
+                                    <Link to="/sms" >
+
+                                        <li>Subsidy Management System</li>
+                                    </Link>
+                                    <Link to="/synzap" >
+
+                                        <li>Synzap</li>
+                                    </Link>
+                                    <Link to="/ekyc" >
+
+                                        <li>Offline e-KYC</li>
+                                    </Link>
+                                    <Link  to="/e-sign">
+                                        <li >e-Sign</li>
+                                    </Link>
+                                    <Link to="/digital-affiliation" >
+
+                                        <li>Digital Affilation</li>
+                                    </Link>
+
+                                        <Link to="/enach"><li >e-Nach</li></Link>
+                                        <Link to="/getkyc">
+                                        <li >
+                                        GetKYC
+                                        </li>
+                                        </Link>
+                                    <h5>Enterprise Suite</h5>
+                                        <Link to="/ecos">
+                                            <li>e-COS</li>
+
+                                    </Link>
+                                    <a href="javascript:void(0)">
+                                        <h5>Tools</h5>
+                                    </a>
+                                       <Link to="/lotsms"> <li >Lot SMS</li></Link>
+
+                                        <Link to="/panverification">
+                                            <li >PAN Verification</li>
+
+                                        </Link>
+                                        
+                                </div>
+                                    <div className="footer-col2">
+                                        <h4>Company</h4>
+                                        <Link to="/about">
+                                            <li>About</li>
+                                            </Link>
+                                        <Link to="/leadership">
+                                            <li>Leadership</li>
+                                            </Link>
+
+                                        <Link to="/clients">
+                                            <li>Clients</li>
+                                            </Link>
+                                        <Link to="/partners">
+                                            <li>Partners</li>
+                                            </Link>
+
+
+                                        <Link to={{pathname: '/contact', state: { prevPath: window.location.pathname }}}>
+                                            <li>Contact Us</li>
+                                            </Link>
+                                            <Link to="/investers">
+                                            <li>Investers</li>
+                                            </Link>
+                                            <Link to="board-of-directors">
+                                            <li>Board Of Directors</li>
+                                            </Link>
+                                    </div>
+                                    <div className="footer-col3">
+                                        <h4>Careers</h4>
+                                        <a href="javascript:void(0)">
+                                           <Link to="/careers"> <li >We're Hiring!</li></Link>
+
+                                            </a>
+                                </div>
+                                <div className="footer-col4">
+                                    <h4>Case Studies</h4>
+                                    <a href="javascript:void(0)">
+                                        <li ><span data-toggle="tooltip" data-placement="right" title="Coming Soon">Muthoot Fincorp</span></li>
+
+                                    </a>
+                                    <a href="javascript:void(0)">
+                                        <li ><span data-toggle="tooltip" data-placement="right" title="Coming Soon">Videocon</span></li>
+
+                                        </a>
+                                    </div>
+                                    <div className="footer-col5">
+                                        <h4>Connect with us</h4>
+                                        <a href="https://www.facebook.com/syntizenindia" target="_blank"><i class="fab fa-facebook-f footer-social-icons"></i></a>
+                                        <a href="https://www.instagram.com/syntizenindia" target="_blank"> <i class="fab fa-instagram footer-social-icons" style={{fontWeight:'bold'}}></i></a>
+                                        <a href="https://www.crunchbase.com/organization/syntizen" target="_blank"> <i class="fab fa-cuttlefish footer-social-icons"></i></a>
+                                        <a href="https://www.linkedin.com/company/syntizen/" target="_blank"><i class="fab fa-linkedin-in footer-social-icons"></i></a>
+                                        <a href="https://twitter.com/syntizenindia" target="_blank"><i class="fab fa-twitter footer-social-icons"></i></a>
+                                        <form className="subscribe_form def-shad" style={{ width: '100%' }} onSubmit={(e)=>{e.preventDefault();window.addrecord()}}>
+                                            <div className="input-group">
+                                            <input type="hidden" id="fsource" value="Syntizen Footer"/>
+                                                <input type="email" name="email" id="femail" className="form-control" placeholder="Your email address" required/>
+                                                <span className="input-group-btn">
+                                                    <button className="btn btn-default ekyc-getstarted-btn form-control" type="submit">Get Started</button>
+                                                </span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 
+                    <Mob_fotter />
+                </section>
+            </div>
+        )
+    }
+}
+
+export default Footer

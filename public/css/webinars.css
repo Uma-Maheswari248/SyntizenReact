@@ -1,0 +1,75 @@
+.web-main-box {
+    padding: 5px;  
+    margin-top: -290px;
+    background-color: white;
+}
+.web-main-box .def-h2{
+    font-size: 21px;
+    margin-left: 22px;
+    margin-top: 19px;
+}
+.web-pp-p{
+    padding-left: 15px;
+    font-size: smaller;
+}
+
+.web-sub-div {
+    margin-top: 23px; 
+}
+
+.def-h4 {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 19px;
+    line-height: 23px;
+}
+
+.web-sri-h2{
+    font-size: 14px;
+    margin-top: -5px;
+}
+.web-sri-p {
+    font-size: 12px;
+    margin-left: 15px;
+    line-height: 1px;
+    margin-top: -6px;
+}
+.web-date {
+    margin-left: 15px;
+    float:left;
+    height:30%;
+    margin-top: 10px;
+}
+.web-date-img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.web-date-p {
+    float: right;
+}
+.web-reg-btn {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0px 26px 15px;
+}
+.web-notify {
+    font-size: 25px;
+    font-weight: bold;
+}
+.web-head-p {
+    color: #5cc0a7;
+    font-weight: bold;
+}
+.web-main-box-row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.btn-web {
+    border-bottom-right-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    margin-left: 2px !important;
+}
+.web-regbtn-hover:hover {
+    transform: translateY(0px) !important;
+}

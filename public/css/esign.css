@@ -1,0 +1,29 @@
+
+.esign-off-box {
+    padding: 15% 2%;
+    margin: 0 auto;
+}
+
+.esign-off-box h4 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.esign-box-valign-center{
+    height : 200px;
+    display: flex;
+    align-items: center;
+    padding: 15% 3%;
+    background: white;
+}
+.esign-key-row {
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.esign-off-box-sp {
+    padding: 1.5%;
+    margin-left: 127px;
+}

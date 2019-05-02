@@ -1,0 +1,654 @@
+
+/*Home Open */
+
+
+.modal-body {
+	padding:0px;
+}
+.modal-header {
+	padding:0;
+	border:none;
+}
+.modal-header .close {
+	margin-top: -30px;
+}
+.close {
+	color: white;
+	text-shadow: none;
+	font-size: 30px;
+	opacity: 1;
+}
+.modal-dialog {
+	margin:10% auto 30px auto;
+}
+
+/*Home Close */
+
+
+/*Digital Affiliation Open*/
+.dig-pad {
+    padding-top: 20px;
+}
+
+.dig-right {
+    padding-left: 0%;
+}
+
+.dig-right img {
+    width: 50%;
+    margin: 5% 0%;
+}
+
+.dig-trn-row {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/*Digital Affiliation Close*/
+
+
+/*Ecos Open*/
+.ecos-left {
+    padding-top: 2%;
+    border-right: 0px;
+}
+
+.ecos-left p {
+   
+    font-size: 14px;
+}
+
+.ecos-right {
+    padding-top: 2%;
+    border-left: 1px solid #eaeaea;
+}
+
+.ecos-right p {
+    font-size: 14px;
+}
+
+
+.ecos-att-box {
+    border: none;
+    border-right: 1px solid #eaeaea;
+}
+
+.ecos-att-box:nth-child(4) {
+    border-right: 0px;
+    border-left: 1px solid #eaeaea;
+}
+
+/*Ecos Close*/
+
+/* Zenx aua-kua open*/
+.zenx-auakua-box {
+	margin-left: 12%;
+}
+
+	
+/* Zenx aua-kua close */
+
+/*About us open*/
+
+.about-sec1 {
+	padding:230px 0px 250px 0px;
+	background-image: url('../images/careers/career_banner-01.svg');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	margin-top: -5%;
+}
+
+.about-sec {
+    padding: 130px 0px 100px 0px;
+    margin-top: -12%;
+}
+.about-row1 h2 {
+	margin-bottom: 5%;
+}
+
+.about-h {
+    width: 230px;
+    margin: 0 auto 5% auto;
+    padding: 15px 10px;
+    background: white;
+    z-index: 100;
+}
+
+.about-h h3 {
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: -webkit-linear-gradient(right, #2d9bc0, #6be7ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #eaeaea;
+    top: -10%;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -9999;
+}
+
+.abt-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.abt-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: white;
+    border: 3px solid #15bca0;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.cus-left {
+    left: 0;
+}
+
+.cus-right {
+    left: 50%;
+}
+
+
+.cus-right::after {
+    left: -14px;
+}
+
+.content {
+    padding: 2% 5%;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.content h4 {
+    font-weight: 900;
+    letter-spacing: 1px;
+    color:#15bca0;
+    font-size: 22px;
+}
+
+.content li {
+    list-style-type: none;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.content li span {
+    color: #15bca0;
+    font-weight: 900;
+}
+
+.content li:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+    color: #48C0A9;
+    margin-right: 3%;
+}
+
+
+/*About us close */
+
+
+/*Contact us Open*/
+
+.cont-sec {
+	padding:100px 0px;
+}
+.cont-row {
+	margin-top: 5%;
+}
+.cont-l-box1 {
+    color: white;
+    padding: 5% 3% 20% 6%;
+    background: rgb(32, 188, 163);
+}
+.cont-l-box1 h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: white;
+}
+.cont-fa1 {
+    margin-right: 10px;
+}
+.cont-fa2 {
+    margin-right: 10px;
+}
+.cont-l-box1 p {
+    margin-bottom: 5%;
+}
+.cont-l-box1 p a {
+    color: white;
+}
+
+.cont-l-box1 span {
+    margin-left: 30px;
+}
+.cont-l-box2 {
+	background:white;
+	padding:5%;
+}
+.cont-l-box2 h4 {
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.cont-l-box2 p {
+	font-size: 14px;
+}
+.cont-l-box2 .cont-fa1 {
+	color: #15bca0;
+}
+
+.cont-l-box2 .cont-fa2 {
+	color: #15bca0;
+}
+.cont-r-box {
+    padding: 2% 3% 5% 4%;
+
+}
+.cont-r-box h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+.cont-r-box p {
+	font-size: 14px;
+	margin:0px;
+}
+
+.cont-r-box form {
+	margin:5% 0px;
+}
+.cont-r-box form label {
+	display: block;
+	margin-top: 7%;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 900;
+}
+
+.cont-r-box form input, .cont-r-box form textarea {
+	display: block;
+	width: 100%;
+	background:#EBF7F5;
+border:1px solid #bceae3;
+border-radius: 2px;
+margin-bottom: 1%;
+}
+
+.cont-r-box form select {
+	display: block;
+	padding:2% 2%;
+	width: 100%;
+	background:#EBF7F5;
+border:1px solid #bceae3;
+border-radius: 2px;
+margin-bottom: 1%;
+}
+.cont-r-box form a button {
+	width: 100%;
+}
+.cont-r-box form p {
+	font-size: 12px;
+	margin:5% 0%;
+}
+.cont-ca-p{
+    font-size: 20px;
+}
+#subscribe-result p {
+ margin:1%;
+ font-weight: 700;
+}
+
+/* Contact us close */
+
+
+
+/*Clients Open*/
+
+.navbar-fixed-top.scrolled {
+  transition: background-color 200ms linear;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+}
+
+.client-sec1 {
+	padding:230px 0px 420px 0px;
+	background-image: url('../images/careers/career_banner-01.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: -5%;
+}
+
+.client-vid-box {
+	height: 280px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	transform: skewY(-8deg);
+    margin-top: -26%;
+    background: url(../images/clients/thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.client-vid-icon {
+	transform:skewY(9deg);
+    border-radius: 50%;
+    width: 60%;
+}
+.client-sec {
+	padding:100px 0px;
+}
+.client-row2 {
+	margin-top: 5%;
+}
+.client-col-sp {
+	margin-bottom: 2.6%;
+}
+.client-col-sp .def-shad:hover {
+transform: translateY(-4px);
+}
+.client-top-box {
+	padding:8% 5% 5% 5%;
+	border-bottom:1px solid #eaeaea;
+}
+
+.client-top-box img{
+	height: 80px;
+
+}
+.client-top-box h4{
+	font-weight: bold;
+	margin-top: 12%;
+	margin-bottom: 5%;
+}
+.client-top-box p{
+	font-size: 14px;
+	margin:0px;
+    height: 150px;
+}
+
+.client-bottom-box {
+	padding:5% 5% 4% 5%;; 
+}
+.client-bottom-box h5 {
+	color: #15bca0;
+	font-weight: 600;
+	margin:0px;
+}
+
+.client-bottom-box h5 i {
+	vertical-align: bottom;
+	margin-left: 1%;
+}
+
+/*Clients close*/
+/* Signup Open */
+.signup-sec{
+    padding:100px 0px;
+    background-image: url('../images/careers/career_banner-01.svg');
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y: -100px;
+    background-position-x: center;
+    display: flex;
+    height:100vh;
+    align-items: center;
+}.privacy-padding{
+    padding-left:6px;
+}
+.cont-signup-p{
+    font-size: 16px;
+}
+.signup-mar-div{
+    margin-top:15px;
+    padding-right:2px;
+}
+.signup-mar-div span{
+    padding-left:3px;
+}
+
+.signup-marg-div{
+    margin-top:100px;
+}
+.signup-dot{
+    list-style-type: disc;
+ 
+}
+.signup-li{
+    float:left;
+    list-style-type:none;
+}
+.signup-li1{
+    width:170px;
+    float:left;
+    margin:0 auto;
+
+}
+.signup-r-box{
+    padding: 2% 3% 5% 4%;
+    background-color:white;
+    
+}
+.signup-r-box h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+.signup-r-box p {
+	font-size: 14px;
+	margin:0px;
+}
+
+.signup-r-box form {
+	margin:5% 0px;
+}
+.signup-r-box form label {
+	display: block;
+	margin-top: 7%;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 900;
+}
+
+.signup-r-box form input, .signup-r-box form textarea {
+	display: block;
+	width: 100%;
+	background:#EBF7F5;
+border:1px solid #bceae3;
+border-radius: 2px;
+margin-bottom: 1%;
+}
+
+.signup-r-box form select {
+	display: block;
+	padding:2% 2%;
+	width: 100%;
+	background:#EBF7F5;
+border:1px solid #bceae3;
+border-radius: 2px;
+margin-bottom: 1%;
+}
+.signup-r-box form a button {
+	width: 100%;
+}
+.signup-r-box form p {
+	font-size: 14px;
+	margin:5% 0%;
+}
+/* Signup Close */
+
+/* Videos open */
+.vid-off-box {
+    padding: 5px 5px;
+    margin-bottom: 22px;
+}
+
+.vid-off-box:hover {
+    transform: translateY(-2px);
+}
+
+.vid-row2 {
+    margin-top:3%;
+}
+.vid-row3 {
+    margin-bottom: 0%;
+}
+.vid-off-box p {
+    font-size: 14px;
+    margin: 20px 0px 20px 0px;
+    transition: transform .2s;
+    text-align:center;
+    height: 70px;
+}
+
+.vid-off-box h4 {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align:center;
+}
+/* Videos close */
+/*PAN Verification Open*/
+.pricelist{
+    margin:0;
+}
+.pan-price-sec{
+    margin:6% 0% 3%;
+}
+.pan-help-sec{
+    padding: 10px 0px 40px 0px;
+}
+
+/* PAN Verification close */
+/* GetKYC open */
+.getkyc-off-box {
+    margin-left: 125px
+}
+/* GetKYC close */
+
+/* enach open */
+.enach-off-box {
+    height:250px !important;
+}
+/* enach close */
+/*LotSMS Open*/
+.lotsms-box-ht{
+    height:224px;
+}
+.lotsms-off-box{
+    padding: 15% 2%;
+    margin:0 auto;
+}
+.panel-ht{
+    height:200px;
+}
+
+.lotsms-box h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #008e7d !important;
+    font-weight: bold;
+    padding: 20px 0px; 
+    border-bottom: 1px solid #eaeaea;
+    margin:0px; 
+
+}
+.lotsms-box h3{
+    text-align: center;
+    text-transform: uppercase;
+    color:#1c3170 !important;
+    font-weight: bold;
+}
+
+.lotsms-box p {
+    text-align: center;
+    color: #008e7d;
+    font-size: 50px;
+    font-weight: 100;
+    width: 100%;
+    line-height: 50px;
+    margin: 0px;
+}
+
+.lotsms-box button {
+    width: 100%;
+    background:#f5f5f5 ;
+    padding:15px 5px 10px 5px;
+    border:none;
+    font-size: 18px;
+    color:#1c3170;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.lotsms-nopadding{
+    padding:0px;
+    background:white;
+  
+}
+.l-p-box {
+    display: flex;
+    height: 140px;
+    align-items: center;
+    text-align: center;
+}
+.lotsms-nopadding:hover{
+    
+   background-color:#e7f2ee;
+   border-color:#96dccf;
+   transform: scale(1.1); 
+   z-index:999;
+  
+   
+}
+.lotsms-nopadding:hover .lotsms-box button{
+    background:#e7f2ee;
+}
+
+.lotsms-paisa{
+    text-transform: uppercase;
+    color:#1c3170;
+    font-weight:bold;
+    font-size:20px;
+}
+.lotsms-get{
+    margin-top:4%;
+}
+.lotsms-fe-pa{
+    padding-left:40px;
+    
+}
+.lotsms-pricing{
+    padding: 0px 0px 50px 0px;
+}
+
+/*LotSMS Close*/

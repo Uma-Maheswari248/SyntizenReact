@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 323 117">
+      <image width="323" height="117" xlink:href="../../../Downloads/gmr-logo.png"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1200 604">
+      <image width="1200" height="604" xlink:href="../../../Downloads/1200px-Rajiv_Gandhi_International_Airport_Logo.svg.png"/>
+    </pattern>
+    <clipPath id="clip-custom_1">
+      <rect width="400" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="400" height="300" fill="#fff"/>
+    <rect id="gmr-logo" width="165" height="59" transform="translate(127 67)" fill="url(#pattern)"/>
+    <rect id="_1200px-Rajiv_Gandhi_International_Airport_Logo.svg" data-name="1200px-Rajiv_Gandhi_International_Airport_Logo.svg" width="390" height="196" transform="translate(5 54)" fill="url(#pattern-2)"/>
+  </g>
+</svg>
